@@ -17,6 +17,8 @@
 
 + (BOOL)isReachable;
 
++ (NSString *)getIPAddress;
+
 + (NSString *)formatPriceDecimal:(int)totPrice;
 + (NSString *)formatPriceDecimalDbl:(double)totPrice;
 + (NSString *)formatPriceCurrency:(int)totPrice;
